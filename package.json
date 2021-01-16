@@ -1,0 +1,17 @@
+{
+  "name": "lambda-handler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "jsontoxml": "^1.0.1",
+    "mongoose": "^5.11.12",
+    "xml2js": "^0.4.23"
+  }
+}
