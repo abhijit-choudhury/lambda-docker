@@ -28,7 +28,7 @@ Important : Don't change the references for files, all must be ./pathtofile.js i
 
 6. Create a container repository with the same name 'hello-world' in AWS ECR
 
-7. Authenticate the Docker to your Amazon ECR registry, 123456789012 below is your acc id, us-east-1 is the region
+7. Authenticate the Docker to your Amazon ECR registry, 138796788942 below is your acc id, us-east-1 is the region
 
         aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 138796788942.dkr.ecr.us-east-1.amazonaws.com
 
