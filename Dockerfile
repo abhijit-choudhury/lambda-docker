@@ -1,6 +1,6 @@
 FROM public.ecr.aws/lambda/nodejs:12
 
-# Copy function code and package.json
+# Copy function code and package.json later update it to COPY * /var/task/ and add docker ignore file as well
 COPY *.js config models package.json /var/task/
 
 # Install NPM dependencies for function
