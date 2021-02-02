@@ -2,8 +2,8 @@ const xml2js = require('xml2js');
 const jsonxml = require('jsontoxml');
 const axios = require('axios');
 
-const config = require('./config.js');
-const CruiseSummary = require('./cruiseSummaryModel.js');
+const config = require('./config/config.js');
+const CruiseSummary = require('./models/cruiseSummaryModel.js');
 
 // Some default settings needed by xml2js. We can leave the as they are.
 let options = {             // options passed to xml2js parser
