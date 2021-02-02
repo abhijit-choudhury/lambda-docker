@@ -1,6 +1,5 @@
 Reference: https://docs.aws.amazon.com/lambda/latest/dg/images-create.html
 
-Important : Don't change the references for files, all must be ./pathtofile.js irrespective of being placed in different folder, Docker Copy is not copying the folders
 
 1. Install aws cli v2
 
